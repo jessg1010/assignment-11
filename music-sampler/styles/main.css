@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+margin: 0 auto;
+padding: 20px;
+background: #c3d9e7;
+}
+
+article {
+  background: #fff;
+  margin: 80px 180px 80px 180px;
+  padding: 50px;
+}
+
+h1, h3, footer {
+  text-align: center;
+  background: #d3bcc2;
+  color: #fff;
+  padding: 20px;
+}
+
+#image-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#image-container p {
+  text-align: center;
+}
+
+#coverAlbums img {
+  width: 24%;
+  height: 24%;
+  max-width: 100%
+}
+
+@media (max-width: 667px){
+  article {
+    background: #c3d9e7;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+  }
+}
